@@ -1,11 +1,11 @@
-package ai.data.engineering.controller;
+package com.ai.data.engineering.controller;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import ai.data.engineering.model.RecordEntity;
-import ai.data.engineering.service.RecordService;
+import com.ai.data.engineering.model.RecordEntity;
+import com.ai.data.engineering.service.RecordService;
 
 @RestController
 @RequestMapping("/records")

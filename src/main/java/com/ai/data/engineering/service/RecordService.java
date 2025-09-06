@@ -1,9 +1,10 @@
-package ai.data.engineering.service;
+package com.ai.data.engineering.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ai.data.engineering.model.RecordEntity;
-import ai.data.engineering.repository.RecordRepository;
+
+import com.ai.data.engineering.model.RecordEntity;
+import com.ai.data.engineering.repository.RecordRepository;
 
 import java.util.List;
 import java.util.Optional;

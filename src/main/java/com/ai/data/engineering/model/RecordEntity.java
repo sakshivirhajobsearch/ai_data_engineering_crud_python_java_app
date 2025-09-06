@@ -1,4 +1,4 @@
-package ai.data.engineering.model;
+package com.ai.data.engineering.model;
 
 import jakarta.persistence.*;
 
